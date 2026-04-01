@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+table {
+    border-spacing: 0 10px;
+    width: 900px;
+}
+
+caption {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+table thead {
+    text-align: left;
+}
+
+table thead tr th:first-child {
+    text-align: center;
+}
+
+img {
+    width: 40px;
+    margin: 1.5em;
+}
+
+table tbody tr {
+    background-color: #fff;
+    font-size: xx-small;
+
+}
+
+table tbody tr td:first-child {
+    width: 20px;
+
+}
+
+table tbody tr td h6 a {
+    color: #8ccdd3;
+    font-size: small;
+    text-decoration: none;
+}
+
+table button {
+    background-color: #05aa39;
+    border-radius: 0.3em;
+    color: #f1f1f1;
+    padding: 0.29em;
+    width: 5em;
+    border: #f1f1f1;
+}
+
+table tbody tr:nth-child(5) td:nth-child(3) button {
+    background-color: #077bec;
+}
+
+table tbody tr:nth-child(8) td:nth-child(3) button {
+    background-color: #077bec;
+}
